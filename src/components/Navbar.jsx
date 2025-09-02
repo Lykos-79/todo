@@ -46,7 +46,6 @@ export default function Navbar() {
           </a>
         </div>
 
-        {/* Mobile Hamburger */}
         <button
           className="md:hidden p-2 text-white"
           onClick={() => setOpen(!open)}
@@ -55,7 +54,6 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile Menu */}
       {open && (
         <div className="md:hidden px-4 pb-4">
           <ul className="bg-neutral-900/90 rounded-2xl border border-white/10 p-4 space-y-2">

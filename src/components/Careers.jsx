@@ -11,9 +11,7 @@ const Careers = () => {
         </p>
       </div>
 
-      {/* Content Grid */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 max-w-6xl mx-auto">
-        {/* Left side - text */}
         <div className="flex flex-col gap-8 md:w-1/2">
           <div>
             <h3 className="font-bold text-lg">✨ Design that thinks ahead.</h3>
@@ -31,7 +29,6 @@ const Careers = () => {
           </div>
         </div>
 
-        {/* Center - image */}
         <div className="flex-shrink-0 md:w-1/3 flex justify-center">
           <img
             src="careers.png"
@@ -40,7 +37,6 @@ const Careers = () => {
           />
         </div>
 
-        {/* Right side - text */}
         <div className="flex flex-col gap-8 md:w-1/2">
           <div>
             <h3 className="font-bold text-lg">

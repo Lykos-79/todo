@@ -4,7 +4,6 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen bg-black text-white flex flex-col justify-center pt-16"
     >
-      {/* Background image */}
       <div className="absolute top-16 left-0 w-full h-[700px] z-10">
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -12,12 +11,11 @@ export default function Hero() {
             backgroundImage: "url('/home.png')",
           }}
         />
-        {/* Black gradient overlay */}
+
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-12 gap-10 z-10">
-        {/* Left side */}
         <div className="md:col-span-7">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight">
             Who We <span className="text-white/90">are.</span>
@@ -28,7 +26,6 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Right side (Our Story) */}
         <div className="md:col-span-5">
           <div className="bg-white/5 border border-white/10 rounded-3xl p-6 shadow-lg backdrop-blur">
             <h2 className="text-2xl font-semibold">Our Story</h2>
@@ -42,7 +39,6 @@ export default function Hero() {
               scalable products.
             </p>
 
-            {/* Stats */}
             <div className="mt-8 flex gap-10">
               <div>
                 <div className="text-5xl font-bold">3.3k</div>
@@ -61,7 +57,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Bottom tagline */}
       <div className="mt-16 z-10">
         <p className="max-w-7xl mx-auto px-4 py-6 text-white/85 text-2xl">
           We’re not just builders. We’re partners <br />

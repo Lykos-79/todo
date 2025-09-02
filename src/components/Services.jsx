@@ -3,14 +3,12 @@ import React from "react";
 export default function Services() {
   return (
     <section className="relative w-full bg-black text-white flex items-center justify-center px-6 py-16">
-      {/* Wave Image as background */}
       <img
         src="services.png"
         alt="wave design"
         className="absolute bottom-0 left-0 w-full h-full object-cover"
       />
 
-      {/* Overlay text */}
       <div className="relative z-10 text-center max-w-3xl">
         <p className="text-lg md:text-xl">
           From Startups With Big Dreams To Enterprises Seeking Next-Level
